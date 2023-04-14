@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <!-- 웹 접속 URL -->
+    <!-- 운영 -->
+    <serverUrl value="https://mcsi.mdbins.com:8100/MobilePortal/" />
+    <!-- 개발 -->
+    <!--<serverUrl value="http://10.88.23.27:83/MobilePortal/"/>-->
+
+    <!-- 앱관리자정보페이지 url -->
+    <!-- 운영 -->
+    <appInfoPageUrl value="https://mcsi.mdbins.com:8100/MobilePortal/appInfo.do?method=getAppContacts" />
+    <!-- 개발 -->
+    <!--<appInfoPageUrl value="http://10.88.23.27:83/MobilePortal/appInfo.do?method=getAppContacts"/>-->
+
+    <!-- 엠가드 서버 url -->
+    <!-- 운영 -->
+    <!--<mguardServerUrl value="https://mdm4.mdbins.com" />-->
+    <!-- 개발 -->
+    <!--<mguardServerUrl value="https://mdm4t.mdongbu.com"/>-->
+
+    <!-- 엠가드 에이전트 설치 페이지 url -->
+    <mguardAgentInstallPageUrl value="/resources/html/app.html" />
+
+    <!-- 손게시판 url-->
+    <!--<sonNotiurl value="http://10.88.23.27:83/MobilePortal/board.do?method=getPostList"/>-->
+    <sonNotiurl value="http://10.88.23.27:83/MobilePortal/board.do?method=main"/>
+
+    <!-- 서버패스여부. -->
+    <serverPass value="Y" />
+
+    <!-- 엠가드 패스여부. -->
+    <mguardPass value="Y" />
+
+</config>
+
+

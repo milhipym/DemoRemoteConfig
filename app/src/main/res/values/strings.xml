@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DemoRemoteConfig</string>
+    <string name="hello_example">hello_example</string>
+</resources>
